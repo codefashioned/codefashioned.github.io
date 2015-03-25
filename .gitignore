@@ -39,3 +39,6 @@ Thumbs.db
 /vendor/*
 /dist
 /.tmp
+
+# Ignore codefashioned folder for barspoon import #
+!/vendor/codefashioned
