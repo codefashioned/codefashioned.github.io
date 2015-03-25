@@ -336,8 +336,8 @@ module.exports = function (grunt) {
     'jekyll:check',
     'sass:dist',
     'jshint:all',
-    'csscss:check',
-    'csslint:check'
+    'csscss:check'
+    // 'csslint:check'
   ]);
 
   grunt.registerTask('build', [
