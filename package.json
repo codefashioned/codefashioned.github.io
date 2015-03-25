@@ -1,8 +1,8 @@
 {
-  "name": "codefashionedgithubio",
+  "name": "codefashioned.github.io",
   "repository": {
     "type": "git",
-    "url": "git://github.com/username/repo.git"
+    "url": "git://github.com/codefashioned/codefashioned.github.io.git"
   },
   "version": "0.0.0",
   "devDependencies": {
