@@ -1,0 +1,50 @@
+@-webkit-keyframes typing {
+  from { width: 100% }
+  to   { width: 0    }
+}
+
+@-webkit-keyframes blink-caret {
+  from, to { border-color: transparent      }
+  50%      { border-color: $base-font-color }
+}
+
+@-moz-keyframes typing {
+  from { width: 100% }
+  to   { width: 0    }
+}
+
+@-moz-keyframes blink-caret {
+  from, to { border-color: transparent      }
+  50%      { border-color: $base-font-color }
+}
+
+.hero__container {
+  color: $base-font-color;
+  height: 100vh;
+  text-align: center;
+  @include align-items(center);
+  @include display(flex);
+  @include justify-content(center);
+}
+
+.hero__content {
+  position: relative;
+  float: left;
+}
+
+.hero__inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  background: $base-background-color; /* same as background */
+  border-left: .1em solid $base-font-color;
+
+       box-sizing: border-box;
+  -moz-box-sizing: border-box;
+
+     -moz-animation: typing 0.5s steps(6, end), /* # of steps = # of characters */
+                     blink-caret 0.5s step-end infinite;
+  -webkit-animation: typing 0.5s steps(6, end), /* # of steps = # of characters */
+                     blink-caret 0.5s step-end infinite;
+}
