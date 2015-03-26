@@ -1,5 +1,5 @@
 // Typography
-$sans-serif: 'Menlo', $helvetica;
+$sans-serif: $helvetica;
 $serif: $georgia;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
@@ -13,6 +13,7 @@ $header-line-height: $base-font-size * 1.25;
 $base-border-radius: em(3);
 $content-padding: em(50);
 $row-margin: em(15);
+$base-content-padding: em(60);
 
 // Base Colors
 $black:               #000000;
@@ -44,11 +45,12 @@ $yellow--light:       #FFC230;
 $yellow--dark:        #D9A426;
 
 // Background Color
-$base-background-color: $pink;
+$base-background-color: $white;
+$alt-background-color: $pink;
 
 // Font Colors
 $base-font-color: $dark-gray--dark;
-$base-accent-color: $white;
+$base-accent-color: $pink;
 
 // Link Colors
 $base-link-color: $base-accent-color;
