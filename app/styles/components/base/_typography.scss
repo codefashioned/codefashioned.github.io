@@ -4,13 +4,16 @@ body {
   color: $base-font-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
+  font-weight: 300;
   line-height: $unitless-line-height;
 }
 
 h1, h2, h3, h4, h5, h6 {
   display: block;
   font-family: $header-font-family;
+  font-weight: 900;
   line-height: $header-line-height;
+  margin: 0;
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
 }
 

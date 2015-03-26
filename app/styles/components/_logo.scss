@@ -1,0 +1,16 @@
+.logo__container {
+  // border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  // font-size: 3em;
+  padding: 1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logo {
+  font-size: 18em;
+  font-weight: 900;
+  position: absolute;
+  right: em(4.5);
+  top: em(3);
+}
