@@ -8,18 +8,3 @@
   background: $alt-background-color;
   padding: ($base-content-padding / 2) $base-content-padding $base-content-padding $base-content-padding;
 }
-
-.nav--primary {
-  font-size: 1.5em;
-  padding-top: 3em;
-
-  @include media($screen-sm) {
-    padding-bottom: 2em;
-    padding-top: 0;
-    text-align: right;
-  }
-
-  @include media($screen-md) {
-    text-align: center;
-  }
-}

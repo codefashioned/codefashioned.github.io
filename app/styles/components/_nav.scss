@@ -1,0 +1,14 @@
+.nav--primary {
+  font-size: 1.5em;
+  padding-top: 3em;
+
+  @include media($screen-sm) {
+    padding-bottom: 2em;
+    padding-top: 0.25em;
+    text-align: right;
+  }
+
+  @include media($screen-md) {
+    text-align: center;
+  }
+}
