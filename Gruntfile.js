@@ -310,7 +310,8 @@ module.exports = function (grunt) {
         },
         options: {
           watchTask: true,
-          proxy: '0.0.0.0:9000' // Proxy the connect:livereload server
+          proxy: '0.0.0.0:9000', // Proxy the connect:livereload server
+          xip: true
         }
       }
     }
