@@ -46,6 +46,15 @@ h6 {
   font-size: $base-font-size;
 }
 
+.heading {
+  font-size: 2.5em;
+}
+
+.heading,
+.subheading {
+  font-family: $alt-font-family;
+}
+
 p {
   font-weight: 500;
   margin: 0 0 ($base-line-height * .5);
@@ -55,6 +64,13 @@ p {
   color: $white;
   font-size: 0.8em;
   text-transform: uppercase;
+}
+
+.paragraph-title {
+  font-family: $alt-font-family;
+  opacity: 0.6;
+  padding-bottom: 0.5em;
+  padding-top: 1em;
 }
 
 a {
