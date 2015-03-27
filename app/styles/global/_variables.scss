@@ -13,7 +13,7 @@ $header-line-height: $base-font-size * 1.25;
 $base-border-radius: em(3);
 $content-padding: em(50);
 $row-margin: em(15);
-$base-content-padding: 0;
+$base-content-padding: em(90);
 
 // Base Colors
 $black:               #000000;
@@ -54,7 +54,9 @@ $base-accent-color: $pink;
 
 // Link Colors
 $base-link-color: $base-accent-color;
-$base-link-color--hover: darken($base-accent-color, 15);
+$base-link-color--hover: darken($base-link-color, 15);
+$alt-link-color: $base-font-color;
+$alt-link-color--hover: darken($alt-link-color, 15);
 $base-button-color: $base-link-color;
 $base-button-color--hover: $base-link-color--hover;
 

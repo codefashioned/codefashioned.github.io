@@ -1,18 +1,33 @@
 .content--primary {
   background: $base-background-color;
-  padding: ($base-content-padding / 2) $base-content-padding;
+  padding: ($base-content-padding * 1.5) $base-content-padding;
 }
 
 .content--alternate {
   background: $alt-background-color;
-  padding: ($base-content-padding / 2) $base-content-padding;
+  padding: ($base-content-padding / 2) $base-content-padding $base-content-padding $base-content-padding;
 }
 
 .nav--primary {
   font-size: 1.5em;
-  padding-bottom: 2em;
+  padding-top: 3em;
 
   @include media($screen-sm) {
-    padding-top: 2.5em;
+    padding-bottom: 2em;
+    padding-top: 0.5em;
+    text-align: right;
   }
+
+  @include media($screen-md) {
+    text-align: center;
+  }
+}
+
+.heading {
+  font-size: 3em;
+}
+
+.paragraph-title {
+  opacity: 0.6;
+  padding-top: 1em;
 }
