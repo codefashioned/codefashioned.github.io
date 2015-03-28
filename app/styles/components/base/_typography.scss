@@ -57,6 +57,10 @@ h6 {
   font-family: $alt-font-family;
 }
 
+.accent {
+  color: $base-accent-color;
+}
+
 p {
   font-weight: 500;
   margin: 0 0 ($base-line-height * .5);
@@ -91,18 +95,9 @@ a {
 }
 
 .link--alt {
-  color: $alt-link-color;
   font-size: 0.6em;
   font-weight: 500;
   text-transform: uppercase;
-
-  &:hover {
-    color: $alt-link-color--hover;
-  }
-
-  &:active, &:focus {
-    color: $alt-link-color--hover;
-  }
 }
 
 hr {

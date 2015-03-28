@@ -18,7 +18,7 @@ $base-content-padding: em(90);
 
 // Base Colors
 $black:               #000000;
-$blue:                #069DD9;
+$blue:                #22B0D6;
 $blue--light:         #08A8E7;
 $blue--dark:          #088DC2;
 $light-gray:          #EFEFEF;
@@ -31,7 +31,7 @@ $green:               #45B267;
 $green--light:        #51C374;
 $green--dark:         #3A9355;
 $pink:                #FF0066;
-$purple:              #6D5BAE;
+$purple:              #DA2575;
 $purple--light:       #8677BC;
 $purple--dark:        #5C4D93;
 $red:                 #E4282A;
@@ -45,16 +45,17 @@ $yellow:              #F5B725;
 $yellow--light:       #FFC230;
 $yellow--dark:        #D9A426;
 
-// Background Color
-$base-background-color: $white;
-$alt-background-color: $pink;
-
 // Font Colors
 $base-font-color: $dark-gray--dark;
 $base-accent-color: $pink;
+$alt-accent-color: $blue;
+
+// Background Color
+$base-background-color: $white;
+$alt-background-color: $base-accent-color;
 
 // Link Colors
-$base-link-color: $base-accent-color;
+$base-link-color: $alt-accent-color;
 $base-link-color--hover: darken($base-link-color, 15);
 $alt-link-color: $base-font-color;
 $alt-link-color--hover: lighten($alt-link-color, 15);
