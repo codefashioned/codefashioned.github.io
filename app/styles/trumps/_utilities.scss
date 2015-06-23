@@ -1,9 +1,9 @@
-%clearfix {
+%util-clearfix {
   @include clearfix;
 }
 
 /// Hides text - not accessibility friendly
-%hide-text {
+%util-hide-text {
   @include hide-text;
 }
 
@@ -17,11 +17,11 @@
 //   float: right !important;
 // }
 
-%text-left {
+%util-text-left {
   text-align: left !important;
 }
 
-.text-center {
+.util-text-center {
   text-align: center !important;
 }
 
@@ -29,50 +29,54 @@
   text-align: right !important;
 }
 
-%valign-top {
+%util-valign-top {
   vertical-align: top !important;
 }
 
-%valign--middle {
+%util-valign--middle {
   @include vertical-align;
 }
 
-%valign-bottom {
+%util-valign-bottom {
   vertical-align: bottom !important;
 }
 
-%relative {
+%util-relative {
   position: relative !important;
 }
 
-%no-margin {
+%util-no-margin {
   margin: 0 !important;
 }
 
-%flush-top {
+%util-flush-top {
   margin-top: 0 !important;
 }
 
-%flush-bottom {
+%util-flush-bottom {
   margin-bottom: 0 !important;
 }
 
-%no-padding {
+%util-no-padding {
   padding: 0 !important;
 }
 
-.make-bold {
+.util-bold {
   font-weight: 900 !important;
 }
 
-%inline-block {
+.util-italic {
+  font-style: italic;
+}
+
+%util-inline-block {
   display: inline-block !important;
 }
 
-%hidden--still-accessible {
+.util-hidden--still-accessible {
   @include hide-content;
 }
 
-%hidden--even-from-screen-readers {
+%util-hidden--even-from-screen-readers {
   display: none !important;
 }
