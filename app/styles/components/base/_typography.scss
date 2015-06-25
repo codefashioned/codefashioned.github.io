@@ -1,11 +1,14 @@
-body {
+.body {
   -webkit-font-smoothing: antialiased;
-  background-color: $alt-background-color;
   color: $base-font-color;
   font-family: $base-font-family;
   font-size: $base-font-size;
   font-weight: 300;
   line-height: $unitless-line-height;
+
+  &--alt {
+    background: $alt-background-color;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -31,7 +34,6 @@ h3 {
 
 h4 {
   font-size: $base-font-size * 1.5; // 16 * 1.5 = 24px
-  margin-bottom: 1.5em;
 }
 
 h5 {
@@ -50,10 +52,16 @@ h6 {
 
 .subheading--default {
   @extend %subheading;
+  margin-bottom: 1.5em;
+}
+
+.subheading--portfolio {
+  @extend %subheading;
 }
 
 .heading--default,
-.subheading--default {
+.subheading--default,
+.subheading--portfolio {
   font-family: $alt-font-family;
 }
 
@@ -76,6 +84,16 @@ h6 {
   color: $white;
   font-size: 1em;
   text-transform: uppercase;
+
+  @include media($screen-sm) {
+    font-size: 0.8em;
+  }
+}
+
+.paragraph--portfolio {
+  font-family: $alt-font-family;
+  font-weight: 500;
+  margin: 0 0 ($base-line-height * .5);
 
   @include media($screen-sm) {
     font-size: 0.8em;

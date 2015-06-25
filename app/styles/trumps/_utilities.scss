@@ -25,7 +25,7 @@
   text-align: center !important;
 }
 
-%text-right {
+.util-text-right {
   text-align: right !important;
 }
 
@@ -33,11 +33,11 @@
   vertical-align: top !important;
 }
 
-%util-valign--middle {
+.util-valign--middle {
   @include vertical-align;
 }
 
-%util-valign-bottom {
+.util-valign-bottom {
   vertical-align: bottom !important;
 }
 
