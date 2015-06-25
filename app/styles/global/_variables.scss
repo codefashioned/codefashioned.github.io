@@ -58,8 +58,8 @@ $alt-background-color: $base-accent-color;
 // Link Colors
 $base-link-color: $alt-accent-color;
 $base-link-color--hover: darken($base-link-color, 15);
-$alt-link-color: $base-font-color;
-$alt-link-color--hover: lighten($alt-link-color, 15);
+$alt-link-color: $light-gray--light;
+$alt-link-color--hover: darken($alt-link-color, 10);
 $base-button-color: $base-link-color;
 $base-button-color--hover: $base-link-color--hover;
 

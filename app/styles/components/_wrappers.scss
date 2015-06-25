@@ -30,3 +30,11 @@
     padding-bottom: $base-content-padding / 2;
   }
 }
+
+.portfolio__summary {
+  @include media($screen-md-down) {
+    border-top: 1px solid $light-gray--dark;
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+}

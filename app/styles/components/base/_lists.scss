@@ -29,3 +29,16 @@
   display: inline-block;
   width: 2em;
 }
+
+.portfolio__list {
+  @include media($screen-sm) {
+    text-align: right;
+  }
+
+  @include media($screen-sm-down) {
+    border-top: 1px solid $light-gray--dark;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-top: 1em;
+  }
+}
