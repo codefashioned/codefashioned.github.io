@@ -116,7 +116,8 @@ h6 {
     color: $base-link-color--hover;
   }
 
-  &:active, &:focus {
+  &:active,
+  &:focus {
     color: $base-link-color--hover;
     outline: none;
   }
@@ -130,6 +131,17 @@ h6 {
   @include media($screen-sm-down) {
     font-size: 0.9em;
     line-height: 2em;
+  }
+}
+
+.link--more {
+  color: $alt-link-color;
+
+  &:hover,
+  &:active,
+  &:focus {
+    color: $alt-link-color--hover;
+    outline: none;
   }
 }
 
