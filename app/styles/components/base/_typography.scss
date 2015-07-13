@@ -14,7 +14,7 @@
 h1, h2, h3, h4, h5, h6 {
   display: block;
   font-family: $header-font-family;
-  font-weight: 100;
+  font-weight: 300;
   line-height: $header-line-height;
   margin: 0;
   text-rendering: optimizeLegibility; // Fix the character spacing for headings
@@ -62,7 +62,7 @@ h6 {
 .heading--default,
 .subheading--default,
 .subheading--portfolio {
-  font-family: $alt-font-family;
+  font-family: $base-font-family;
 }
 
 .accent {
@@ -101,7 +101,7 @@ h6 {
 }
 
 .paragraph__title {
-  font-family: $alt-font-family;
+  font-family: $base-font-family;
   opacity: 0.6;
   padding-bottom: 0.5em;
   padding-top: 1em;

@@ -1,6 +1,7 @@
 // Typography
-$sans-serif: "nimbus-sans", $helvetica;
-$serif: "calluna-regular", "Libre Baskerville", $georgia;
+$sans-serif: "roboto", "nimbus-sans", $helvetica;
+$serif: "calluna-regular", $georgia;
+// $sans-serif: "roboto";
 $base-font-family: $sans-serif;
 $alt-font-family: $serif;
 $header-font-family: $base-font-family;
