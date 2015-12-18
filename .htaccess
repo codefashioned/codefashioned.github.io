@@ -17,9 +17,10 @@
 # http://code.google.com/p/html5security/wiki/CrossOriginRequestSecurity
 # http://enable-cors.org/
 
-# <IfModule mod_headers.c>
+<IfModule mod_headers.c>
 #   Header set Access-Control-Allow-Origin "*"
-# </IfModule>
+  Header always append X-Frame-Options SAMEORIGIN
+</IfModule>
 
 # ------------------------------------------------------------------------------
 # | CORS-enabled images                                                        |
